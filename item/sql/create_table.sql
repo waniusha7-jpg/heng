@@ -1,3 +1,4 @@
+use db07
 -- 用户表结构
 CREATE TABLE `users` (
   `id` bigint NOT NULL AUTO_INCREMENT COMMENT '用户ID',

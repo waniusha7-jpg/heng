@@ -1,0 +1,15 @@
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\common\IErrorCode.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\controller\UserController.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\config\WebMvcConfig.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\exception\GlobalExceptionHandler.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\service\impl\UserServiceImpl.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\util\JwtUtil.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\controller\AuthController.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\mapper\UserMapper.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\common\CommonErrorCode.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\interceptor\AuthInterceptor.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\service\UserService.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\entity\User.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\controller\AdminController.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\UserManagementApplication.java
+D:\Program Files\beijing\item\src\main\java\com\example\usermanagement\common\Result.java

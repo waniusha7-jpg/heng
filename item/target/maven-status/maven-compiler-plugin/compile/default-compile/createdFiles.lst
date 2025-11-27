@@ -1,0 +1,17 @@
+com\example\usermanagement\config\WebMvcConfig.class
+com\example\usermanagement\controller\AdminController.class
+com\example\usermanagement\common\CommonErrorCode.class
+com\example\usermanagement\controller\AuthController$RegisterRequest.class
+com\example\usermanagement\common\IErrorCode.class
+com\example\usermanagement\interceptor\AuthInterceptor.class
+com\example\usermanagement\controller\AuthController$LoginRequest.class
+com\example\usermanagement\controller\UserController.class
+com\example\usermanagement\common\Result.class
+com\example\usermanagement\entity\User.class
+com\example\usermanagement\exception\GlobalExceptionHandler.class
+com\example\usermanagement\service\impl\UserServiceImpl.class
+com\example\usermanagement\util\JwtUtil.class
+com\example\usermanagement\service\UserService.class
+com\example\usermanagement\mapper\UserMapper.class
+com\example\usermanagement\UserManagementApplication.class
+com\example\usermanagement\controller\AuthController.class

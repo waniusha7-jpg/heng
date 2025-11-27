@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         user.setUsername(username);
         user.setEmail(email);
-        user.setPassword(SecureUtil.bcrypt(password)); // 使用BCrypt加密密码
+        user.setPassword(SecureUtil.md5(password)); // 使用MD5加密密码（临时解决方案）
         user.setRole("USER");
         user.setStatus(1);
         user.setCreateTime(LocalDateTime.now());
@@ -71,7 +71,7 @@ public class UserServiceImpl implements UserService {
             throw new RuntimeException("用户已被禁用");
         }
 
-        if (!SecureUtil.bcryptCheck(password, user.getPassword())) {
+        if (!SecureUtil.md5(password).equals(user.getPassword())) {
             throw new RuntimeException("密码错误");
         }
 
@@ -91,8 +91,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public Page<User> findAllUsers(int page, int size) {
         QueryWrapper queryWrapper = QueryWrapper.create()
-                .eq(USER.DELETED, 0)
-                .orderByDesc(USER.CREATE_TIME);
+                .eq("deleted", 0)
+                .orderBy("create_time", false);
         return userMapper.paginate(page, size, queryWrapper);
     }
 
